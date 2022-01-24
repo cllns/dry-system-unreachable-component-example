@@ -1,3 +1,16 @@
+GIT
+  remote: https://github.com/dry-rb/dry-system.git
+  revision: 0edb7f27158cdd8e50345549d200d3658b3bf6f7
+  specs:
+    dry-system (0.22.0)
+      concurrent-ruby (~> 1.0)
+      dry-auto_inject (>= 0.4.0)
+      dry-configurable (~> 0.14, >= 0.14.0)
+      dry-container (~> 0.9, >= 0.9.0)
+      dry-core (~> 0.5, >= 0.5)
+      dry-inflector (~> 0.1, >= 0.1.2)
+      dry-struct (~> 1.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -20,14 +33,6 @@ GEM
       dry-core (~> 0.5, >= 0.5)
       dry-types (~> 1.5)
       ice_nine (~> 0.11)
-    dry-system (0.22.0)
-      concurrent-ruby (~> 1.0)
-      dry-auto_inject (>= 0.4.0)
-      dry-configurable (~> 0.13, >= 0.13.0)
-      dry-container (~> 0.9, >= 0.9.0)
-      dry-core (~> 0.5, >= 0.5)
-      dry-inflector (~> 0.1, >= 0.1.2)
-      dry-struct (~> 1.0)
     dry-types (1.5.1)
       concurrent-ruby (~> 1.0)
       dry-container (~> 0.3)
@@ -40,7 +45,7 @@ PLATFORMS
   arm64-darwin-21
 
 DEPENDENCIES
-  dry-system (~> 0.22.0)
+  dry-system!
 
 BUNDLED WITH
    2.2.32

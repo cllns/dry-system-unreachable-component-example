@@ -1,3 +1,3 @@
 source "https://rubygems.org"
 
-gem "dry-system", "~> 0.22.0"
+gem "dry-system", github: "dry-rb/dry-system"
